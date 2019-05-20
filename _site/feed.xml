@@ -6,5 +6,102 @@
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
+      <item>
+        <title>Use Chef's knife ssh command to run chef-client on multiple instances</title>
+        <description>
+          
+          Example using Chef’s knife command to run chef-client on all instances using the dev_identity.pem.
+knife ssh &quot;role:*&quot; &quot;chef-client&quot; -i ~/.ec2/dev_identity.pem
+
+
+
+        </description>
+        <pubDate>Fri, 15 Dec 2017 16:49:08 -0800</pubDate>
+        <link>http://localhost:4000/2017-12-15-knife-ssh-command-chef-client/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-15-knife-ssh-command-chef-client/</guid>
+      </item>
+    
+      <item>
+        <title>Aws Cannot Share Encrypted Volumes Across Accounts</title>
+        <description>
+          
+          We use different AWS accounts for production and development. We also use encrypted AMI’s. Writing some ansible code, I kept erroring out on a known-good AMI. The reason was I could not share AMI across encrypted accounts. You can’t copy an encrypted AMI that was shared with you from another...
+        </description>
+        <pubDate>Fri, 06 Oct 2017 17:20:30 -0700</pubDate>
+        <link>http://localhost:4000/2017-10-06-aws-cannot-share-encrypted-volumes-across-accounts/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-06-aws-cannot-share-encrypted-volumes-across-accounts/</guid>
+      </item>
+    
+      <item>
+        <title>Workaround for Terraform Error DBParameterGroup not found</title>
+        <description>
+          
+          The terraform destroy command outputs a false error as it is not able to delete an AWS RDS MySQL DB. Error refreshing state: 1 error(s) occurred: * module.hortonworks.aws_db_parameter_group.hortonworks: aws_db_parameter_group.hortonworks: DBParameterGroupNotFound: DBParameterGroup not found: dsdev-105-rds-param-hortonworks status code: 404, request id: c9083eec-aadb-11e7-9855-8f67280331c5 To workaround this error, use the terraform state rm command...
+        </description>
+        <pubDate>Fri, 06 Oct 2017 16:19:45 -0700</pubDate>
+        <link>http://localhost:4000/2017-10-06-terraform-state-rm/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-06-terraform-state-rm/</guid>
+      </item>
+    
+      <item>
+        <title>Which-Is-Kerberos-Admin-Server</title>
+        <description>
+          
+          To see which keytab server your client is trying to authenticate, you can run these commands.
+
+export KRB5_TRACE=/dev/stdout 
+kinit -k -t username.keytab username@EC2.INTERNAL -V
+
+
+
+        </description>
+        <pubDate>Tue, 03 Oct 2017 17:07:07 -0700</pubDate>
+        <link>http://localhost:4000/2017-10-03-which-is-kerberos-admin-server/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-03-which-is-kerberos-admin-server/</guid>
+      </item>
+    
+      <item>
+        <title>Redirecting standard error into standard output from your unix commands into log files</title>
+        <description>
+          
+          Sometimes, we’re not able to view the output of standard error, or we’d like to keep this in a log file to search later. Saving the results of standard output can be useful for troublshooting issues the future. To do this, we can redirct standard error into standard output and...
+        </description>
+        <pubDate>Tue, 03 Oct 2017 16:30:21 -0700</pubDate>
+        <link>http://localhost:4000/2017-10-03-redirecting-standard-error-into-standard-output/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-03-redirecting-standard-error-into-standard-output/</guid>
+      </item>
+    
+      <item>
+        <title>In Centos, manually add user and add ssh keys</title>
+        <description>
+          
+          Manual steps to add a user with sudo accecss in centos
+adduser -U -G adm,wheel username -s /bin/bash &amp;amp;&amp;amp; su -l username &amp;amp;&amp;amp; mkdir .ssh &amp;amp;&amp;amp; chmod 0700 .ssh &amp;amp;&amp;amp; cd .ssh/
+
+vi authorized_keys
+
+ssh-rsa AAAAB3NzaThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFake SomeThingFor@EveryOne.local
+
+chmod 0600 authorized_keys
+
+
+
+        </description>
+        <pubDate>Mon, 25 Sep 2017 16:13:57 -0700</pubDate>
+        <link>http://localhost:4000/2017-09-25-centos-add-user/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-25-centos-add-user/</guid>
+      </item>
+    
+      <item>
+        <title>First-Post</title>
+        <description>
+          
+          First Post If you can read this, the site is on. Here were some of my requirements and my choice located in parentheses easy to build on my mac (built on my mac) static site (Hugo) uses SSL certs and defaulitng to https (AWS Certificate Manager) hosted in the cloud...
+        </description>
+        <pubDate>Mon, 25 Sep 2017 15:47:17 -0700</pubDate>
+        <link>http://localhost:4000/2017-09-25-first-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-25-first-post/</guid>
+      </item>
+    
   </channel>
 </rss>

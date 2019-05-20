@@ -7,7 +7,7 @@ body {
   font-size: 18px;
   color: #404040;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
   
 }
 p {
@@ -19,11 +19,11 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 800;
 }
 a {
-  color: #008AFF;
+  color: #ca520f;
 }
 a:hover,
 a:focus {
-  color: #ff8000;
+  color: #ca520f;
 }
 blockquote {
   color: #808080;
@@ -63,12 +63,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background-color: #ff8000;
+  background-color: #ca520f;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background-color: #ff8000;
+  background-color: #ca520f;
 }
 img::selection {
   color: white;
@@ -101,7 +101,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #ca520f;
+  background-color: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
@@ -116,14 +116,14 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #404040;
+  color: #ca520f;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #ff8000;
+  color: #ca520f;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -267,11 +267,11 @@ footer {
 }
 
 footer p.text-muted {
-  color: #ff8000;
+  color: #ca520f;
 }
 
 footer a {
-  color: #404040;
+  color: #ca520f;
 }
 
 footer .list-inline {
@@ -325,7 +325,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #ff8000;
+  color: #ca520f;
 }
 
 .post-preview .post-title {
@@ -389,14 +389,14 @@ footer .theme-by {
 }
 
 .blog-tags a {
-  color: #008AFF;
+  color: #ca520f;
   text-decoration: none;
   padding: 0px 5px;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #ff8000;
+  color: #ca520f;
   background-color: #EEE;
 }
 
@@ -602,8 +602,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  border: 1px solid #ff8000;
-  background-color: #ff8000;
+  border: 1px solid #ca520f;
+  background-color: #ca520f;
 }
 
 .pager {
