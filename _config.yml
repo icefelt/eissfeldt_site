@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://icefelt.github.io"
+url: "https://eissfeldt.com/"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -53,9 +53,9 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
+# navbar-img: "/img/big-imgs/mount_adams.jpg"
+# footer-img: "/img/big-imgs/mount_jefferson.jpg"
+# page-img: "/img/big-imgs/eloise_cape.jpg"
 
 # --- Footer options --- #
 
@@ -97,7 +97,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "eissfeldt.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
