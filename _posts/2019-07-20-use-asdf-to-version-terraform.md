@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use ASDF to switch terraform versions"
+title: "Use asdf to switch terraform versions"
 date: "2019-07-20T16:49:08-08:00"
 tags:
   - terraform
@@ -11,11 +11,11 @@ tags:
 `asdf-vm` or `asdf` is a CLI tool that manages multiple language runtime versions on a per-project basis. It's like `gvm`, `nvm`, `rbenv`, and `pyenv` and more.
 
 ## Purpose
-This post shows you how to install and configure multiple versions of terraform using `asdf`. I used brew on OSX to install asdf in a bash shell. There are also instructions to install with git using linux bash, ZSH, and fish on [Getting Started with asdf-vim](https://asdf-vm.com/#/core-manage-asdf-vm).
+This post shows you how to install and configure multiple versions of terraform using `asdf`. I used brew on OSX to install `asdf` in a bash shell. There are also instructions to install with git using linux bash, ZSH, and fish on [Getting Started with asdf-vim](https://asdf-vm.com/#/core-manage-asdf-vm).
 
 ## Procedure
 
-1. Install asdf with brew
+#### Install asdf with brew
 ```bash
 brew install asdf
 ```
@@ -26,7 +26,7 @@ Successful output includes
 🍺  /usr/local/Cellar/asdf/0.7.3: 92 files, 194.4KB, built in 3 seconds
 ```
 
-2. Test for a successful instal using the asdf version command
+#### Test for a successful instal using the asdf version command
 ```bash
 asdf --version
 ```
@@ -36,7 +36,7 @@ Successful output includes a version number like this
 v0.7.3
 ```
 
-3. Configure your shell to use asdf using your .bash_profile
+#### Configure your shell to use asdf using your .bash_profile
 ```bash
 echo -e '\n. $(brew --prefix asdf)/asdf.sh' >> ~/.bash_profile
 echo -e '\n. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash' >> ~/.bash_profile
@@ -55,7 +55,7 @@ env | grep -ir asdf
 (standard input):PATH=/Users/scott/.asdf/shims:/usr/local/opt/asdf/bin:/Users/scott/.gem/ruby/2.6.0/bin:/Users/scott/.rbenv/shims:/usr/local/opt/ruby/bin:/Users/scott/anaconda3/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/scott/bin
 ```
 
-4. Install dependencies for plugins
+#### Install dependencies for plugins
 ```bash
 brew install \
   coreutils automake autoconf openssl \
@@ -79,7 +79,7 @@ asdf plugin-add terraform https://github.com/Banno/asdf-hashicorp.git
 ```
 Successful output includes `Cloning` from the reop and `Unpacking` the objects
 ```bash
-Sat Jul 27 08:04:08 scott@Scotts-MacBook-Pro ~/code/vernonpta $ asdf plugin-add terraform https://github.com/Banno/asdf-hashicorp.git
+asdf plugin-add terraform https://github.com/Banno/asdf-hashicorp.git
 Cloning into '/Users/scott/.asdf/plugins/terraform'...
 remote: Enumerating objects: 1, done.
 remote: Counting objects: 100% (1/1), done.
