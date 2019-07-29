@@ -3,19 +3,8 @@
   <channel>
     <title>Scott Eissfeldt was here</title>
     <description>Scott Eissfeldt's website</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Mother of the Year</title>
-        <description>
-          
-          Insert coffee cup image I’m thankful for the opportunity to break gender stereotypes as I proclaim success with my year off as a stay-at-home dad. I’m actively generating revenue for my family again, and I love it. I took one year off from actively working for others. It changed our...
-        </description>
-        <pubDate>Sat, 20 Jul 2019 17:49:08 -0700</pubDate>
-        <link>http://localhost:4000/2019-07-20-mother-of-the-year/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-07-20-mother-of-the-year/</guid>
-      </item>
+    <link>https://www.eissfeldt.com/</link>
+    <atom:link href="https://www.eissfeldt.com//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Use asdf to switch terraform versions</title>
@@ -24,8 +13,8 @@
           Use asdf to switch terraform versions asdf-vm or asdf is a CLI tool that manages multiple language runtime versions on a per-project basis. It’s like gvm, nvm, rbenv, and pyenv and more. Purpose This post shows you how to install and configure multiple versions of terraform using asdf. I used...
         </description>
         <pubDate>Sat, 20 Jul 2019 17:49:08 -0700</pubDate>
-        <link>http://localhost:4000/2019-07-20-use-asdf-to-version-terraform/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-07-20-use-asdf-to-version-terraform/</guid>
+        <link>https://www.eissfeldt.com//2019-07-20-use-asdf-to-version-terraform/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2019-07-20-use-asdf-to-version-terraform/</guid>
       </item>
     
       <item>
@@ -39,8 +28,8 @@ knife ssh &quot;role:*&quot; &quot;chef-client&quot; -i ~/.ec2/dev_identity.pem
 
         </description>
         <pubDate>Fri, 15 Dec 2017 16:49:08 -0800</pubDate>
-        <link>http://localhost:4000/2017-12-15-knife-ssh-command-chef-client/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-12-15-knife-ssh-command-chef-client/</guid>
+        <link>https://www.eissfeldt.com//2017-12-15-knife-ssh-command-chef-client/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2017-12-15-knife-ssh-command-chef-client/</guid>
       </item>
     
       <item>
@@ -50,8 +39,8 @@ knife ssh &quot;role:*&quot; &quot;chef-client&quot; -i ~/.ec2/dev_identity.pem
           We use different AWS accounts for production and development. We also use encrypted AMI’s. Writing some ansible code, I kept erroring out on a known-good AMI. The reason was I could not share AMI across encrypted accounts. You can’t copy an encrypted AMI that was shared with you from another...
         </description>
         <pubDate>Fri, 06 Oct 2017 17:20:30 -0700</pubDate>
-        <link>http://localhost:4000/2017-10-06-aws-cannot-share-encrypted-volumes-across-accounts/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-10-06-aws-cannot-share-encrypted-volumes-across-accounts/</guid>
+        <link>https://www.eissfeldt.com//2017-10-06-aws-cannot-share-encrypted-volumes-across-accounts/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2017-10-06-aws-cannot-share-encrypted-volumes-across-accounts/</guid>
       </item>
     
       <item>
@@ -61,8 +50,8 @@ knife ssh &quot;role:*&quot; &quot;chef-client&quot; -i ~/.ec2/dev_identity.pem
           The terraform destroy command outputs a false error as it is not able to delete an AWS RDS MySQL DB. Error refreshing state: 1 error(s) occurred: * module.hortonworks.aws_db_parameter_group.hortonworks: aws_db_parameter_group.hortonworks: DBParameterGroupNotFound: DBParameterGroup not found: dsdev-105-rds-param-hortonworks status code: 404, request id: c9083eec-aadb-11e7-9855-8f67280331c5 To workaround this error, use the terraform state rm command...
         </description>
         <pubDate>Fri, 06 Oct 2017 16:19:45 -0700</pubDate>
-        <link>http://localhost:4000/2017-10-06-terraform-state-rm/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-10-06-terraform-state-rm/</guid>
+        <link>https://www.eissfeldt.com//2017-10-06-terraform-state-rm/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2017-10-06-terraform-state-rm/</guid>
       </item>
     
       <item>
@@ -78,8 +67,8 @@ kinit -k -t username.keytab username@EC2.INTERNAL -V
 
         </description>
         <pubDate>Tue, 03 Oct 2017 17:07:07 -0700</pubDate>
-        <link>http://localhost:4000/2017-10-03-which-is-kerberos-admin-server/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-10-03-which-is-kerberos-admin-server/</guid>
+        <link>https://www.eissfeldt.com//2017-10-03-which-is-kerberos-admin-server/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2017-10-03-which-is-kerberos-admin-server/</guid>
       </item>
     
       <item>
@@ -89,8 +78,8 @@ kinit -k -t username.keytab username@EC2.INTERNAL -V
           Sometimes, we’re not able to view the output of standard error, or we’d like to keep this in a log file to search later. Saving the results of standard output can be useful for troublshooting issues the future. To do this, we can redirct standard error into standard output and...
         </description>
         <pubDate>Tue, 03 Oct 2017 16:30:21 -0700</pubDate>
-        <link>http://localhost:4000/2017-10-03-redirecting-standard-error-into-standard-output/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-10-03-redirecting-standard-error-into-standard-output/</guid>
+        <link>https://www.eissfeldt.com//2017-10-03-redirecting-standard-error-into-standard-output/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2017-10-03-redirecting-standard-error-into-standard-output/</guid>
       </item>
     
       <item>
@@ -110,8 +99,8 @@ chmod 0600 authorized_keys
 
         </description>
         <pubDate>Mon, 25 Sep 2017 16:13:57 -0700</pubDate>
-        <link>http://localhost:4000/2017-09-25-centos-add-user/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-09-25-centos-add-user/</guid>
+        <link>https://www.eissfeldt.com//2017-09-25-centos-add-user/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2017-09-25-centos-add-user/</guid>
       </item>
     
       <item>
@@ -121,8 +110,8 @@ chmod 0600 authorized_keys
           First Post If you can read this, the site is on. Here were some of my requirements and my choice located in parentheses easy to build on my mac (built on my mac) static site (Hugo) uses SSL certs and defaulitng to https (AWS Certificate Manager) hosted in the cloud...
         </description>
         <pubDate>Mon, 25 Sep 2017 15:47:17 -0700</pubDate>
-        <link>http://localhost:4000/2017-09-25-first-post/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-09-25-first-post/</guid>
+        <link>https://www.eissfeldt.com//2017-09-25-first-post/</link>
+        <guid isPermaLink="true">https://www.eissfeldt.com//2017-09-25-first-post/</guid>
       </item>
     
   </channel>
