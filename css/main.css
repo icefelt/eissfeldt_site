@@ -787,3 +787,10 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+img + em { display: block; text-align: center; }
+
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}

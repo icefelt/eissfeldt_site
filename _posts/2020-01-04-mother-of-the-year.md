@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Mother of the Year"
+date: "2020-01-04T12:30:08-08:00"
+tags:
+  - real estate
+  - passive income
+  - family
+  - consulting
+  - wellness
+
+---
+![Mother of the Year](/img/coffee_cup.jpg#center)
+*My coffee cup proclaims success during my year off as a stay-at-home dad. Breaking gender stereotypes is just a bonus.*{: style="color:gray; font-size: 75%; text-align: center;"}
+
+In May of 2018, I quit my job as an engineer for a successful medical device company. I didn't work for someone else for more than a year.
+
+When I bring up my year off with others at work, they ask questions like, "What did I do with all that extra time?" "How did you afford it?" "How did you keep up your tech chops? Were you afraid of falling behind?" "Is your family mad at you for quitting your job?"
+
+**TL;DR - It totally worked out awesome with some planning and budgeting.**
+
+Before I get to what I did, it's important to explain a little more WHY I did it. My motivation is my family. Being a good father and husband is paramount, and I do my best to live this. A couple years ago, my partner and I both worked full time. Like many professionals we know what it's like working way more than 40 hours in a week at the behest of our roles at work due to tight deadlines, essential overtime, incident management, and being on call. At that time, our daughter was in second grade. She is really bright, but we didn't have the time to put in with her and her teacher. My relationship with my spouse suffered from a lack of time as well. Many days, our daughter was being watched by others for 10+ hours. It seemed my wife and I were so exhausted, if we had 30 minutes, we hid from everyone and tried to relax. This uknowingly deprioritized our quality family time even more. The reason I stopped working for others was my family really needed a big, positive change to get out of this rut. We certainly weren't broke, but it felt like we were barely keeping our head above water.  It felt like all our time belonged to others.
+
+The more I looked around, the families I saw keeping their sanity have one parent stay at home. However, this seemed out of reach for our family in Portland. Even when I whittled all the joy and happiness from our budget, it still wasn't enough for us keep our bike riding, city lifestyle. Living in Portland is much more expensive than it was in the 1990's. My wife and I could see the benefits of one parent focusing on work, and the other focusing on the family. However, I couldn't see how to do this on one salary.
+
+Maybe I was looking at this wrong? If only there was someone smarter than me at home to discuss these issues...?
+
+Around this time, my wife told me "Why do you assume that you'll keep working, and I'll quit?" My first reaction was, "Because I make more money, and it's still not enough." That's when I realized she was right (it's in writing, my love). With incident management and on-call responsibilities demanding more of my schedule (60+ hours was becoming normal again), much more time would be dedicated to family if I left. We also know how to make a budget. The power of budgets is not to cut everything to the bone. The power is creating sustainable plan for the future. I used my experience as a manager, budget advisor, and small real estate investor to look through those perspectives to examine our lives. If we weren't able live off one parent's income, could we find a way to make some passive income to help make up the difference? How long can we budget for me to NOT work? How can we setup a long term, sustainable plan with only one parent working? When we started asking these questions, we were on the right path. We did our best to make our family a one-parent-working family.
+
+We knew one parent working was the priority, and I was going to use my year off to get us there.
+
+The quick answer to solving our budget issues were both passive income and consulting, along with cutting a few expenses. For passive income, we purchased investment property in another state. I also began consulting on Devops culture and Site Reliability Engineering practices. These don't make up for the lost income, but they are done on my time. Both these have much more revenue potential if we prioritize more time. However, I really didn't spend that that much time chasing income. Over the year, I spent more time remodeling the kitchen and installing new windows in our house, chauffeuring my daughter to school and extra cirriculuars, and making breakfast, lunch, and dinner for my family. I also washed all the laundry, dishes, went to the store, paid all the bills, made sure our budget was on track, and automated much of our finances. I also helped my daughter with school lessons and taught her parallel lessons from homeschool books. She and I developed a routine with the self-discipline to come home from school and do her homework before she ran around the neighborhood with friends before dinner. She's in soccer, swims, plays piano, and has plenty of other extra-cirriculuar activities. That year, I went on every field trip, volunteered to be treasurer for her school's PTA. I became heavily involved in my daughter's life, and it made a huge difference for our family. In addition, this helped alleviate my wife from many of her responsibilities and focus on her work. She no longer needed to race home to pickup our daughter from after school care at 6PM, barely eat dinner, do homework, and get ready for bed without much quality time. My family drives me to be a good role model for them and be the best I can be. This year, we began not only keeping our head above water, we began to thrive. I spent my year making my family better, and I couldn't be happier with the results.
+
+I kept up my tech chops with a few small projects, and it was easier when I could focus for a few hours at a time. I wrote some ruby and python, and I used rails and angular for frameworks. I also learned more terraform and some go to spin up and test kubernetes and hadoop clusters. My website is hosted with AWS services, and I use terraform for the infrastructure as code. I'm monitoring using NewRelic and AWS CloudWatch at this time, but I'll probably change that soon. I also read and do small projects through faun.dev, hackernews, slashdot, coding style sites, and hackernoon.
+
+Although the year was fantastic, I was ready to get back to work. I'm excited to transfer home responsibilities to my wife. She's going to make it better. Her skills are different than mine, and I value her input. However, I miss working with engineers everyday. I miss encouraging efficient stand ups, git commits, writing code with other people, and being around other geeks who speak my language. My family is awesome, but we're never going to discuss terraform, ansible, kubernetes, or python. I can't make jokes about Commodore64's, GOTO from BASIC, or floppy disks. I'm not sure if I was previously burned out, but the spark I have again is real. I'm excited to learn, and I can't wait for what's next.
+
+Have a great day, thanks for reading. I hope this inspires you to think about ways to improve your life with planning and budgeting.
+
+Update: It's been several months since I've ben back to work, and my new team is fantastic. I'm blown away at some of the work we do with machine learning and a bunch more cool stuff. My core team helps implement devops culture in a few different ways. We help people migrate their apps to kubernetes, mainly using terraform for configuration management, GitLab for repo and CI/CD, and a combination of tools for logging, monitoring, and alerts. We also do a lot to make process more efficient and try to break silos. My work is balanced, but I also have the ability to do more when I have time. I'm way better at my job now as I'm focused, and I have time to deep dive into issues and really learn. There is plenty of opportunity for furthering devops culture, and I can already see that we're making a difference. I love it, and it's rewarding. I feel really lucky this became a reality.
