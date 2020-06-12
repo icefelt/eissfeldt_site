@@ -14,13 +14,13 @@ tags:
 ![Monitor Important Things](/img/monitor.jpg#center)
 *Monitor Important Things*{: style="color:gray; font-size: 75%; text-align: center;"}
 
-How do you know your application is running? How do you know your application is running at peak performance? How do you know your application is running at peak performance without wasting money on unnecessary infrastructure or costs?
+_How do you know your application is running? How do you know your application is running at peak performance? How do you know your application is running at peak performance without wasting money on unnecessary infrastructure or costs?_
 
-**Application Monitoring** using **application metrics** can help answer these questions. With effective application monitoring, you can also analyze long-term trends, compare over time or experiment groups, and build the foundation for dashboards, alerts, and logging.
+**Application Monitoring** using **application metrics** can help answer these questions. With effective application monitoring, you can also **analyze long-term trends, compare over time or experiment groups, and build the foundation for dashboards, alerts, and logging**.
 
 -----------------------------------------
 
-In this post, we write two examples in Python from the book, ['Python for DevOps'](https://www.amazon.com/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X) by Noah Gift, Kennedy Behrman, Alfredo Deza, and Grig Gheorghiu. In the `web.py` file, we use prometheus_client to **count the number of requests** on the base URL `/`, and we also use prometheus_client to **create a histogram to enumerate slow database requests** from the `/database` URL. In the `metrics.py` file, we define the counter and use StatsD to push the metrics to graphite. These two examples help start the monitoring framework for your application or service.
+In this post, we write two examples in Python from the book, ['Python for DevOps'](https://www.amazon.com/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X) by Noah Gift, Kennedy Behrman, Alfredo Deza, and Grig Gheorghiu. We create two files, `web.py` and `metrics.py`. In the `web.py` file, we use `prometheus_client` to **count the number of requests** on the base URL `/`. We also use `prometheus_client` to **create a histogram to enumerate slow database requests** from the `/database` URL. In the `metrics.py` file, we define the `counter` and use StatsD to push the metrics to graphite. These two examples help start the monitoring framework for your application or service.
 
 -----------------------------------------
 
@@ -181,16 +181,14 @@ Another great point from the [Google SRE book](https://landing.google.com/sre/sr
 
 ---------------------------------------------------------------------
 
-I hope this post and these code examples help you build the foundation for effective application monitoring and build the foundation for dashboards, alerts, and logging.
+I hope this post and these code examples help you build understanding of application monitoring and the foundation for dashboards, alerts, and logging. 
 
 ---------------------------------------------------------------------
 
-## References
+### References
 
 [Link to my GitHub repo for the code in this post](https://github.com/icefelt/python_prometheus_graphite_examples)
 
 This code is from the _Monitoring and Logging_ chapter of the ["Python for DevOps"](https://www.amazon.com/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X) book by Noah Gift, Kennedy Behrman, Alfredo Deza, and Grig Gheorghiu. [You can buy this book on Amazon](https://www.amazon.com/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X)
 
-I used learnings from the _Monitoring Distributed Systems_ Chapter of Google's ["Site Reliability Engineering"](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) book by Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Murphy.
-You can read it online here: https://landing.google.com/sre/sre-book/toc/
-[You can buy this book on Amazon](https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X/)
+I used learnings from the _Monitoring Distributed Systems_ Chapter of Google's ["Site Reliability Engineering"](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) book by Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Murphy. You can read it online here: [https://landing.google.com/sre/sre-book/toc/](https://landing.google.com/sre/sre-book/toc/). [You can also buy this book on Amazon](https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X/)
