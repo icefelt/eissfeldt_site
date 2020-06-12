@@ -181,13 +181,13 @@ Another great point from the [Google SRE book](https://landing.google.com/sre/sr
 
 ---------------------------------------------------------------------
 
-I hope this post and these code examples help you build understanding of application monitoring and the foundation for dashboards, alerts, and logging. 
+I hope this post and these code examples help you build understanding of application monitoring and the foundation for dashboards, alerts, and logging.
 
 ---------------------------------------------------------------------
 
 ### References
 
-[Link to my GitHub repo for the code in this post](https://github.com/icefelt/python_prometheus_graphite_examples)
+[Link to my GitHub repo for the code in this post](https://github.com/icefelt/python_prometheus_graphite_examples) https://github.com/icefelt/python_prometheus_graphite_examples
 
 This code is from the _Monitoring and Logging_ chapter of the ["Python for DevOps"](https://www.amazon.com/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X) book by Noah Gift, Kennedy Behrman, Alfredo Deza, and Grig Gheorghiu. [You can buy this book on Amazon](https://www.amazon.com/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X)
 
